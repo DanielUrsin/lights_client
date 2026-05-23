@@ -1,0 +1,42 @@
+# ESP-IDF / CMake build output
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# ESP-IDF generated/backed-up config
+sdkconfig.old
+sdkconfig.*.old
+
+# ESP-IDF component manager generated dependencies
+managed_components/
+
+# Firmware and linker artifacts, if emitted outside build/
+*.bin
+*.elf
+*.map
+*.hex
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local environment/secrets
+.env
+.env.*
+!.env.example
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local Codex/agent session files
+.agents/
+.codex/
